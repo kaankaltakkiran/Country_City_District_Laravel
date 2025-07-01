@@ -34,17 +34,19 @@ git clone https://github.com/kaankaltakkiran/Country_City_district_Laravel.git
 
 ```bash
 # Modeller
-cp /app/Models/Country.php app/Models/
-cp /app/Models/City.php app/Models/
-cp /app/Models/District.php app/Models/
+# Modelleri kopyala
+cp Country_City_district_Laravel/app/Models/Country.php app/Models/
+cp Country_City_district_Laravel/app/Models/City.php app/Models/
+cp Country_City_district_Laravel/app/Models/District.php app/Models/
 
-# Migration dosyaları
-cp /database/migrations/* database/migrations/
+# Migration dosyalarını kopyala
+cp Country_City_district_Laravel/database/migrations/* database/migrations/
 
-# Seeder dosyaları
-cp database/seeders/CountrySeeder.php database/seeders/
-cp database/seeders/CitySeeder.php database/seeders/
-cp database/seeders/DistrictSeeder.php database/seeders/
+# Seeder dosyalarını kopyala
+cp Country_City_district_Laravel/database/seeders/CountrySeeder.php database/seeders/
+cp Country_City_district_Laravel/database/seeders/CitySeeder.php database/seeders/
+cp Country_City_district_Laravel/database/seeders/DistrictSeeder.php database/seeders/
+
 ```
 
 ### 3. Veritabanı Yapılandırması
