@@ -27,24 +27,24 @@ cd ulke-sehir-projem
 #### 2.1. Repo’yu Klonla (Geçici olarak)
 
 ```bash
-git clone https://github.com/ORNEK_KULLANICI/ulke-sehir-ilce-laravel.git temp-ulke
+git clone https://github.com/kaankaltakkiran/Country_City_district_Laravel.git
 ```
 
 #### 2.2. Dosyaları Kopyala
 
 ```bash
 # Modeller
-cp temp-ulke/app/Models/Country.php app/Models/
-cp temp-ulke/app/Models/City.php app/Models/
-cp temp-ulke/app/Models/District.php app/Models/
+cp /app/Models/Country.php app/Models/
+cp /app/Models/City.php app/Models/
+cp /app/Models/District.php app/Models/
 
 # Migration dosyaları
-cp temp-ulke/database/migrations/* database/migrations/
+cp /database/migrations/* database/migrations/
 
 # Seeder dosyaları
-cp temp-ulke/database/seeders/CountrySeeder.php database/seeders/
-cp temp-ulke/database/seeders/CitySeeder.php database/seeders/
-cp temp-ulke/database/seeders/DistrictSeeder.php database/seeders/
+cp database/seeders/CountrySeeder.php database/seeders/
+cp database/seeders/CitySeeder.php database/seeders/
+cp database/seeders/DistrictSeeder.php database/seeders/
 ```
 
 ### 3. Veritabanı Yapılandırması
@@ -60,7 +60,19 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-> Bu adımdan önce `ulke_sehir_db` adında bir veritabanı oluşturmayı unutma.
+> Bu adımdan önce `ulke_sehir_db` adında bir veritabanı oluşturmayı unutma ve `DB_USERNAME` ve `DB_PASSWORD` değerlerini kendi veritabanı kullanıcı bilgilerinle değiştir.
+
+---
+
+## 🔄 Composer Autoload’ı Yeniden Oluştur
+
+Bu adım, yeni modeller ve seeder'ların otomatik olarak yüklenmesini sağlar:
+
+```bash
+composer dump-autoload
+```
+
+> **_NOTE:_** Bu adımdan sonra kod geliştirme aracınızı(vscode,windsruf,cursor vs gibi) yeniden başlatmayı unutmayın.
 
 ---
 
