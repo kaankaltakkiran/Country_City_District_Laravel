@@ -289,3 +289,5 @@ database/
 ---
 
 ## 📖 Ek Kaynaklar
+
+- [Proje Resimleri]()
