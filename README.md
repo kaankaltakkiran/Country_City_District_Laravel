@@ -27,7 +27,7 @@ cd ulke-sehir-projem
 #### 2.1. Repo’yu Klonla (Geçici olarak)
 
 ```bash
-git clone https://github.com/kaankaltakkiran/Country_City_district_Laravel.git
+git clone https://github.com/kaankaltakkiran/Country_City_District_Laravel.git
 ```
 
 #### 2.2. Dosyaları Kopyala
@@ -35,17 +35,17 @@ git clone https://github.com/kaankaltakkiran/Country_City_district_Laravel.git
 ```bash
 # Modeller
 # Modelleri kopyala
-cp Country_City_district_Laravel/app/Models/Country.php app/Models/
-cp Country_City_district_Laravel/app/Models/City.php app/Models/
-cp Country_City_district_Laravel/app/Models/District.php app/Models/
+cp Country_City_District_Laravel/app/Models/Country.php app/Models/
+cp Country_City_District_Laravel/app/Models/City.php app/Models/
+cp Country_City_District_Laravel/app/Models/District.php app/Models/
 
 # Migration dosyalarını kopyala
-cp Country_City_district_Laravel/database/migrations/* database/migrations/
+cp Country_City_District_Laravel/database/migrations/* database/migrations/
 
 # Seeder dosyalarını kopyala
-cp Country_City_district_Laravel/database/seeders/CountrySeeder.php database/seeders/
-cp Country_City_district_Laravel/database/seeders/CitySeeder.php database/seeders/
-cp Country_City_district_Laravel/database/seeders/DistrictSeeder.php database/seeders/
+cp Country_City_District_Laravel/database/seeders/CountrySeeder.php database/seeders/
+cp Country_City_District_Laravel/database/seeders/CitySeeder.php database/seeders/
+cp Country_City_District_Laravel/database/seeders/DistrictSeeder.php database/seeders/
 
 ```
 
@@ -290,4 +290,4 @@ database/
 
 ## 📖 Ek Kaynaklar
 
-- [Proje Resimleri](https://github.com/kaankaltakkiran/Country_City_district_Laravel/tree/main/images)
+- [Proje Resimleri](https://github.com/kaankaltakkiran/Country_City_District_Laravel/tree/main/images)
