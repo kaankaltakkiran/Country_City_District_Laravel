@@ -290,4 +290,4 @@ database/
 
 ## 📖 Ek Kaynaklar
 
-- [Proje Resimleri]()
+- [Proje Resimleri](https://github.com/kaankaltakkiran/Country_City_district_Laravel/tree/main/images)
