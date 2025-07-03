@@ -74,8 +74,6 @@ Bu adım, yeni modeller ve seeder'ların otomatik olarak yüklenmesini sağlar:
 composer dump-autoload
 ```
 
-> **_NOTE:_** Bu adımdan sonra kod geliştirme aracınızı(vscode,windsruf,cursor vs gibi) yeniden başlatmayı unutmayın.
-
 ---
 
 ## 🧩 Seeder Dosyalarının Tanımlanması
